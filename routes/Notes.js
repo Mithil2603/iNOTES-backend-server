@@ -1,6 +1,9 @@
 const express = require("express");
 const router = express.Router();
 const Notes = require("../models/Notes");
+const cors = require("cors");
+app.use(cors());
+
 
 // Create a new note
 router.post("/", async (req, res) => {
