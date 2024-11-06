@@ -7,7 +7,6 @@ const notesSchema = new mongoose.Schema({
     },
     topicName: {
         type: String,
-        required: true,
     },
     topicDescription: {
         type: String,
