@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Content = require("../models/Content"); // Import the Content model
+const Content = require("../models/Python_code"); // Import the Content model
 
 // Create a new content entry
 router.post("/", async (req, res) => {
