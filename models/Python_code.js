@@ -25,19 +25,16 @@ const contentSchema = new mongoose.Schema({
     codeExamples: [
         {
             title: {
-                type: String, // Title of the code snippet
-                required: true,
+                type: String,
             },
             language: {
-                type: String, // Programming language (e.g., "python", "javascript")
-                required: true,
+                type: String,
             },
             code: {
-                type: String, // The actual code
-                required: true,
+                type: String,
             },
             description: {
-                type: String, // A short description of the code snippet
+                type: String,
             }
         }
     ],
